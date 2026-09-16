@@ -1,0 +1,6 @@
+﻿
+# Local exports and credentials
+*.csv
+*.xml
+.env
+*.pfx
