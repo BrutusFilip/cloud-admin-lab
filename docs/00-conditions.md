@@ -13,3 +13,4 @@
 ## c) Stav labu a repo
 - Hyper-V host: příprava nezačala (M03-01). VM DC01 / SRV01 / CLIENT01 / UBU01 neexistují.
 - Repo: nové `cloud-admin-lab` (private → public podle M05-05). Starý scaffold `hybrid-enterprise-lab` bude archivován (M00-02).
+- Aktualizace 2026-09-22: subscription založena (M00-04), expirace viz docs/trials.md.
