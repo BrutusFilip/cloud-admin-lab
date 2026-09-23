@@ -16,3 +16,4 @@
 
 ## Aktualizace
 - 2026-09-22: subscription založena (M00-04); kredit, expirace a termín rozhodnutí viz `docs/trials.md`.
+- 2026-09-23: West Europe nepřijímá nové zákazníky (RequestDisallowedByAzure) → výchozí region labu: swedencentral.
