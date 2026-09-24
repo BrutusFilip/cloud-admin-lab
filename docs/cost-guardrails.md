@@ -7,11 +7,11 @@ Poslední aktualizace: 2026-09-23
 | Položka | Hodnota |
 |---|---|
 | Název | budget-lab-monthly |
-| Scope | lab subscription |
-| Částka | 30 EUR / měsíc (měsíční reset) |
+| Scope | lab subscription | fakturační účet (na Free Trial subscription budget nejde; po upgradu přesunout na subscription)
+| Částka | 30 USD / měsíc (měsíční reset) |
 | Alerty | Actual 50 %, 80 %, 100 %; Forecasted 100 % |
 | Příjemci | lab e-mail + osobní e-mail (azure-noreply@microsoft.com mezi bezpečnými odesílateli) |
-| Test doručení | 2026-09-23: testovací budget 1 EUR s alertem Actual 1 %, zdroj ACI 1 vCPU / 1 GB cca 45 min ve swedencentral — výsledek: ČEKÁ SE |
+| Test doručení | 2026-09-23: testovací budget 1 EUR s alertem Actual 1 %, zdroj ACI 1 vCPU / 1 GB cca 45 min ve swedencentral — výsledek: doručeno 2026-09-24 do doručené pošty (ne spam); test proběhl na úrovni fakturačního účtu; testovací budget smazán |
 
 ## Alert nezastaví útratu
 
