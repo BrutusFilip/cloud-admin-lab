@@ -1,0 +1,18 @@
+#!/bin/sh
+# pre-commit: zastavi commit, kdyz staged zmeny vypadaji jako tajny udaj (M00-06)
+
+# 1) zakazane typy souboru
+BAD_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep -iE '\.(pfx|p12|pem|key|publishsettings)$')
+
+# 2) pridane radky ve tvaru "klic = hodnota" a privatni klice
+PATTERN='(password|passwd|pwd|secret|client_?secret|api[_-]?key|token|connectionstring|accountkey)[[:space:]]*[:=][[:space:]]*[^[:space:]]{6,}|-----BEGIN [A-Z ]*PRIVATE KEY-----|sig=[A-Za-z0-9%]{10,}'
+HITS=$(git diff --cached -U0 --diff-filter=ACM | grep -E '^\+' | grep -vE '^\+\+\+' | grep -iE "$PATTERN")
+
+if [ -n "$BAD_FILES" ] || [ -n "$HITS" ]; then
+  echo "pre-commit: commit zastaven - mozny tajny udaj."
+  [ -n "$BAD_FILES" ] && echo "Zakazane soubory: $BAD_FILES"
+  [ -n "$HITS" ] && echo "Podezrele radky:" && echo "$HITS" | sed -E 's/([:=][[:space:]]*)[^[:space:]]+/\1***/'
+  echo "Oprav a zkus znovu. --no-verify jen pri jistem falesnem poplachu."
+  exit 1
+fi
+exit 0
