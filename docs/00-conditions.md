@@ -8,7 +8,7 @@
 ## b) Tenant a licence
 - Samostatný nový lab tenant SmallCo Lab (`smallcolab-xx.onmicrosoft.com`); produkční tenant POKORNY FLEX se nepoužívá.
 - Licence na startu: Entra ID Free. Trialy (Business Premium 1 měsíc, Entra ID P2 30 dní) až v M06-01, blok M06→M10 v jednom horizontu.
-- Partner program / M365 Developer Program: nezjišťováno (M00-08 volitelné).
+- Partner program / M365 Developer Program: ověřeno 2026-10-12 — nárok na E5 developer sandbox nemám (viz sekce M00-08).
 
 ## c) Stav labu a repo
 - Hyper-V host: příprava nezačala (M03-01). VM DC01 / SRV01 / CLIENT01 / UBU01 neexistují.
@@ -17,21 +17,21 @@
 ## Aktualizace
 - 2026-09-22: subscription založena (M00-04); kredit, expirace a termín rozhodnutí viz `docs/trials.md`.
 - 2026-09-23: West Europe nepřijímá nové zákazníky (RequestDisallowedByAzure) → výchozí region labu: swedencentral.
-- 2026-10-12: M00-08 ověřeno — výsledek neúspěšný, nemám k dispozici Partner Program / M365 Developer program (E5 Sandbox), plán trialů M06 beze změny.
+- 2026-10-12: M00-08 ověřeno — výsledek NE (nárok na E5 developer sandbox nemám), plán trialů M06 beze změny.
 
 ## M00-08 — Partner Program / M365 Developer Program (E5 sandbox)
 
 Ověřeno: 2026-10-12 · zdroje: Microsoft Learn — Microsoft 365 Developer Program a FAQ (aktualizace 2026-09-08), Partner Launch Benefits, ISV Success FAQ
 
-| Cesta k E5 developer sandboxu | Neplatí |
+| Cesta k E5 developer sandboxu | Splňuji? |
 |---|---|
-| Předplatné Visual Studio Professional/Enterprise (osobní) | nesplňuji - nemám předplatné |
-| POKORNY FLEX v oprávněné úrovni Partner Programu (placený balíček / designace) | Nemáme tento placený balíček v rámci POKORNY FLEX a zároveň to nemůžu v budoucnu ani využít. |
-| ISV Success (B2B aplikace na prodej v Marketplace) | nesplňuje ani Deufol ani POKORNY FLEX |
-| Smlouva Premier / Unified Support | Smluvu nemáme ani v Deufol ani POKORNY FLEX|
+| Předplatné Visual Studio Professional/Enterprise (osobní) | ne — předplatné nemám |
+| POKORNY FLEX v oprávněné úrovni Partner Programu (placený balíček / designace) | ne — POKORNY FLEX žádný placený balíček ani designaci nemá |
+| ISV Success (B2B aplikace na prodej v Marketplace) | ne — POKORNY FLEX takovou aplikaci nevyvíjí |
+| Smlouva Premier / Unified Support | ne — POKORNY FLEX tuto smlouvu nemá |
 
-- **Výsledek:** Partner Program momentálně nemají firmy v kterých pracuji a vypadá to, že v brzké době ani mít nebudeme
-- **Důvod:** Všechny odpovědi na otázky byly NE -> to znamená že program nebude a není.
+- **Výsledek:** NE — na Microsoft 365 E5 developer sandbox nemám nárok.
+- **Důvod:** nesplňuji žádnou ze čtyř cest k nároku (tabulka výše). Samotné bezplatné členství v Partner Programu nárok nedává, oprávněné úrovně jsou placené. I s nárokem by sandbox pro admin laby nešel použít (licenční omezení níže).
 - **Licenční omezení:** sandbox smí sloužit jen k vývoji aplikací; obnova jen při vývojářské aktivitě (max. 90 dní). Pro admin laby se nehodí.
 - **Dopad na M06:** plán trialů beze změny — Business Premium trial (1 měsíc) + Entra ID P2 trial (30 dní) aktivuju až v M06-01.
 - **Znovu ověřit, když:** POKORNY FLEX z obchodních důvodů koupí partnerský balíček, nebo získám vlastní předplatné Visual Studio.
