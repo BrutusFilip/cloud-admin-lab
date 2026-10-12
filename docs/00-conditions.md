@@ -17,3 +17,21 @@
 ## Aktualizace
 - 2026-09-22: subscription založena (M00-04); kredit, expirace a termín rozhodnutí viz `docs/trials.md`.
 - 2026-09-23: West Europe nepřijímá nové zákazníky (RequestDisallowedByAzure) → výchozí region labu: swedencentral.
+- 2026-10-12: M00-08 ověřeno — výsledek neúspěšný, nemám k dispozici Partner Program / M365 Developer program (E5 Sandbox), plán trialů M06 beze změny.
+
+## M00-08 — Partner Program / M365 Developer Program (E5 sandbox)
+
+Ověřeno: 2026-10-12 · zdroje: Microsoft Learn — Microsoft 365 Developer Program a FAQ (aktualizace 2026-09-08), Partner Launch Benefits, ISV Success FAQ
+
+| Cesta k E5 developer sandboxu | Neplatí |
+|---|---|
+| Předplatné Visual Studio Professional/Enterprise (osobní) | nesplňuji - nemám předplatné |
+| POKORNY FLEX v oprávněné úrovni Partner Programu (placený balíček / designace) | Nemáme tento placený balíček v rámci POKORNY FLEX a zároveň to nemůžu v budoucnu ani využít. |
+| ISV Success (B2B aplikace na prodej v Marketplace) | nesplňuje ani Deufol ani POKORNY FLEX |
+| Smlouva Premier / Unified Support | Smluvu nemáme ani v Deufol ani POKORNY FLEX|
+
+- **Výsledek:** Partner Program momentálně nemají firmy v kterých pracuji a vypadá to, že v brzké době ani mít nebudeme
+- **Důvod:** Všechny odpovědi na otázky byly NE -> to znamená že program nebude a není.
+- **Licenční omezení:** sandbox smí sloužit jen k vývoji aplikací; obnova jen při vývojářské aktivitě (max. 90 dní). Pro admin laby se nehodí.
+- **Dopad na M06:** plán trialů beze změny — Business Premium trial (1 měsíc) + Entra ID P2 trial (30 dní) aktivuju až v M06-01.
+- **Znovu ověřit, když:** POKORNY FLEX z obchodních důvodů koupí partnerský balíček, nebo získám vlastní předplatné Visual Studio.
