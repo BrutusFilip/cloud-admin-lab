@@ -1,0 +1,1 @@
+- `git status` — ukáže větev a stav souborů
