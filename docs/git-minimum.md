@@ -1,12 +1,12 @@
 # Git minimum — nácvik (M00-07)
 
-Poslední aktualizace: RRRR-MM-DD
+Poslední aktualizace: 2026-10-12
 
 ## Měření
 
 | Kolo | Datum | Čas (min:s) | Poznámka |
 |---|---|---|---|
-| B — z prázdné složky na GitHub | | | |
+| B — z prázdné složky na GitHub | 2026-10-12 | 06:41 | z hlavy, ale musím na GitHub celkově ještě zamakat|
 
 ## Postup s větví
 
